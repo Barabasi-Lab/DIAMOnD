@@ -37,8 +37,8 @@ Or
 
 Where the parameters are:
 
-- `<network_file>`: Path of the file of the network. The network must have the format of an edgelist: <node 1> <node 2>
-- `<seed_file>`:  Path of the file containing the seeds. Each seed must be separated by a new line: <seed 1>\n<seed 2>\n...<seed n>
+- `<network_file>`: Path of the file of the network. The network must have the format of an edgelist: `<node 1><separation><node 2>\n`
+- `<seed_file>`:  Path of the file containing the seeds. Each seed must be separated by a new line: `<seed 1>\n<seed 2>\n...<seed n>`
 - `<n>`: Desired number of steps. 200 is a reasonable starting point.
 - `<alpha>` (optional): An integer representing the weight of the seeds. Default value is 1.
 - `<network_file>` (optional): Path of the output file.
