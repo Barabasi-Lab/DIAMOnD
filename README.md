@@ -5,7 +5,7 @@ This is a guide on how to run the DIAMOnD algorithm, as described in [Ghiassian 
 
 ## Introduction
 
-DIAMOnD is a network-based methodology to uncover the disease module associated with a particular phenotype. DIAMOnD uses as input the interactome and a set of proteins *known* to be associated with the phenotype of interest, which we call **seeds**. Then, it uses an iterative algorithm to calculate the significance of the interactions of the proteins in the neighborhood of the seeds (i.e. a p-value indicating if the number of interactions is higher than a random expectation). The proteins are ranked according to their respective p-values, and the protein with the highest rank (i.e. lowest p-value) is added to the sed of seeds, increasing their number. These procedure is is repeated, increasing progressively the size of the disease module until a given number of steps is reached.
+DIAMOnD is a network-based methodology to uncover the disease module associated with a particular phenotype. DIAMOnD uses as input the interactome and a set of proteins *known* to be associated with the phenotype of interest, which we call **seeds**. Then, it uses an iterative algorithm to calculate the significance of the interactions of the proteins in the neighborhood of the seeds (i.e. a p-value indicating if the number of interactions is higher than a random expectation). The proteins are ranked according to their respective p-values, and the protein with the highest rank (i.e. lowest p-value) is added to the set of seeds, increasing their number. These procedure is is repeated, increasing progressively the size of the disease module until a given number of steps is reached.
 
 
 ## Python
